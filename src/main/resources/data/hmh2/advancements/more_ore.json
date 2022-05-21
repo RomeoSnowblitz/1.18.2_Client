@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "More Ore"
+        },
+        "description": {
+            "text": "Obtain a Mod Ore"
+        },
+        "icon": {
+            "item": "hmh2:spessarite_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Jewels": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "hmh2:mod_ore_drops"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Jewels"
+        ]
+    ],
+    "parent": "hmh2:root"
+}

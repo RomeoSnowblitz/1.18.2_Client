@@ -1,0 +1,6 @@
+
+        public static final Block xx_SLAB = resisterBlock("zz_slab", new SlabBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.ITEM);
+        public static final Block xx_STAIRS = resisterBlock("zz_stairs", new ModStairsBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool()), ModItemGroup.ITEM);
+        public static final Block xx_DOOR = resisterBlock("zz_door", new ModDoorBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool().nonOpaque()), ModItemGroup.ITEM);
+        public static final Block xx_TRAPDOOR = resisterBlock("zz_trapdoor", new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD).strength(1.0f).requiresTool().nonOpaque()), ModItemGroup.ITEM);
+

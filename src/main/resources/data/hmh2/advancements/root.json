@@ -1,0 +1,43 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "This Looks Different"
+        },
+        "description": {
+            "text": "Look Around"
+        },
+        "icon": {
+            "item": "hmh2:block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "hmh2:textures/gui/advancements/backgrounds/diorite_bricks.png"
+    },
+    "criteria": {
+        "C Grass": {
+            "trigger": "minecraft:enter_block",
+            "conditions": {
+                "block": "hmh2:poison_grass"
+            }
+        },
+        "O log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "hmh2:mod_wood"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "O log",
+            "C Grass"
+        ]
+    ]
+}

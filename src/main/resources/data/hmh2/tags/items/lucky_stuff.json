@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+
+    "hmh2:lucky_piece",
+    "hmh2:lucky_ore",
+    "hmh2:lucky_block",
+    "hmh2:lucky_item"
+  ]
+}

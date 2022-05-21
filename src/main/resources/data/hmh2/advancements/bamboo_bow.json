@@ -1,0 +1,36 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "A Bendy Deadeye"
+        },
+        "description": {
+            "text": "Obtain a Bamboo Bow"
+        },
+        "icon": {
+            "item": "hmh2:bamboo_bow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "O Bamboo Bow": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "hmh2:bamboo_bow"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "O Bamboo Bow"
+        ]
+    ],
+    "parent": "hmh2:root"
+}

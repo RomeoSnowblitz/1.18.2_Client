@@ -1,10 +1,16 @@
 {
   "replace": false,
   "values": [
+    "hmh2:freezer",
+    "hmh2:cheese_press",
     "hmh2:hellstone_block",
     "hmh2:graphite_block",
     "hmh2:raw_platinum_block",
     "hmh2:raw_titanium_block",
+    "hmh2:deepslate_silver_ore",
+    "hmh2:silver_ore",
+    "hmh2:deepslate_tin_ore",
+    "hmh2:tin_ore",
     "hmh2:quaerite",
     "hmh2:marble",
     "hmh2:chicken_nugget_ore",

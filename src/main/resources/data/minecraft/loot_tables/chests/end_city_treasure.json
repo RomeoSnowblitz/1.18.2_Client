@@ -384,6 +384,11 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "hmh2:the_starless_night"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {

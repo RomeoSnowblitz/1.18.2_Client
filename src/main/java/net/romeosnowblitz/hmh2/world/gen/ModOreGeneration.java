@@ -20,6 +20,8 @@ public class ModOreGeneration {
         BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.RAW_GENERATION, ModPlacedFeatures.MARBLE.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.PUMICE.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.SALT.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.SILVER.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.all(), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.TIN.getKey().get());
 
         BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.NETHER), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.HELLSTONE.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.categories(Biome.Category.THEEND), GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.QUAERITE.getKey().get());

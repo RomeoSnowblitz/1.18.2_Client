@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "hmh2:freezer",
+    "hmh2:cheese_press",
     "hmh2:bamboo_block",
     "hmh2:banana_log",
     "hmh2:banana_planks",

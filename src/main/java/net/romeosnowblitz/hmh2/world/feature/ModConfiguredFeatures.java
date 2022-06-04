@@ -89,7 +89,7 @@ public class ModConfiguredFeatures {
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RAW_PLATINUM_BLOCK.getDefaultState()),
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.RAW_PLATINUM_BLOCK.getDefaultState()));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RAW_PLATINUM =
-            ConfiguredFeatures.register("raw_platinum",Feature.ORE, new OreFeatureConfig(OVERWORLD_RAW_PLATINUM, 3));
+            ConfiguredFeatures.register("raw_platinum",Feature.ORE, new OreFeatureConfig(OVERWORLD_RAW_PLATINUM, 8));
 
     public static final List<OreFeatureConfig.Target> OVERWORLD_MARBLE = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.MARBLE.getDefaultState()),
@@ -109,11 +109,24 @@ public class ModConfiguredFeatures {
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SALT =
             ConfiguredFeatures.register("salt",Feature.ORE, new OreFeatureConfig(OVERWORLD_SALT, 16));
 
+    public static final List<OreFeatureConfig.Target> OVERWORLD_SILVER = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.SILVER_ORE.getDefaultState()),
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_SILVER_ORE.getDefaultState()));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> SILVER =
+            ConfiguredFeatures.register("silver",Feature.ORE, new OreFeatureConfig(OVERWORLD_SILVER, 8));
+
+    public static final List<OreFeatureConfig.Target> OVERWORLD_TIN = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.TIN_ORE.getDefaultState()),
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_TIN_ORE.getDefaultState()));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TIN =
+            ConfiguredFeatures.register("tin",Feature.ORE, new OreFeatureConfig(OVERWORLD_TIN, 8));
+
+
     public static final List<OreFeatureConfig.Target> OVERWORLD_RAW_TITANIUM = List.of(
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RAW_TITANIUM_BLOCK.getDefaultState()),
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.RAW_TITANIUM_BLOCK.getDefaultState()));
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RAW_TITANIUM =
-            ConfiguredFeatures.register("raw_titanium",Feature.ORE, new OreFeatureConfig(OVERWORLD_RAW_TITANIUM, 3));
+            ConfiguredFeatures.register("raw_titanium",Feature.ORE, new OreFeatureConfig(OVERWORLD_RAW_TITANIUM, 8));
 
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> HELLSTONE =

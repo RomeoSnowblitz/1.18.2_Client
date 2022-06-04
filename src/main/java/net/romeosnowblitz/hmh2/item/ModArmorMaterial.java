@@ -2,6 +2,7 @@ package net.romeosnowblitz.hmh2.item;
 
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
@@ -16,8 +17,14 @@ public enum ModArmorMaterial implements ArmorMaterial {
     BONE("bone", 15, new int[]{2, 5, 6, 2}, 13, SoundEvents.BLOCK_DRIPSTONE_BLOCK_BREAK, 3.0F, 0.0F, () -> {
         return Ingredient.ofItems(ModItems.FUR_PELT);
     }),
-    FUR("fur", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+    EMERALD("emerald", 35, new int[]{3, 6, 8, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(Items.EMERALD);
+    }),
+    FUR("fur", 5, new int[]{1, 2, 3, 1}, 30, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(ModItems.BONE_PLATE);
+    }),
+    HELLSTONE("hellstone", 35, new int[]{3, 6, 8, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0F, 0.0F, () -> {
+        return Ingredient.ofItems(ModItems.HELLSTONE);
     }),
     LIFE("life", 35, new int[]{3, 6, 8, 3}, 30, SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F, () -> {
         return Ingredient.ofItems(ModItems.HEART);

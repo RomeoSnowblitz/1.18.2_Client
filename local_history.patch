@@ -1,0 +1,59 @@
+Index: src/main/java/net/romeosnowblitz/hmh2/tag/ModConfiguredStructureFeatureTagProvider.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/net/romeosnowblitz/hmh2/tag/ModConfiguredStructureFeatureTagProvider.java b/src/main/java/net/romeosnowblitz/hmh2/tag/ModConfiguredStructureFeatureTagProvider.java
+--- a/src/main/java/net/romeosnowblitz/hmh2/tag/ModConfiguredStructureFeatureTagProvider.java	
++++ b/src/main/java/net/romeosnowblitz/hmh2/tag/ModConfiguredStructureFeatureTagProvider.java	(date 1653197022878)
+@@ -11,36 +11,20 @@
+ 
+     @Override
+     public void configure() {
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.PILLAGER_OUTPOST).add(ConfiguredStructureFeatureKeys.PILLAGER_OUTPOST);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.MINESHAFT).add(ConfiguredStructureFeatureKeys.MINESHAFT);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.MINESHAFT_MESA).add(ConfiguredStructureFeatureKeys.MINESHAFT_MESA);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.MANSION).add(ConfiguredStructureFeatureKeys.MANSION);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.JUNGLE_PYRAMID).add(ConfiguredStructureFeatureKeys.JUNGLE_PYRAMID);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.DESERT_PYRAMID).add(ConfiguredStructureFeatureKeys.DESERT_PYRAMID);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.IGLOO).add(ConfiguredStructureFeatureKeys.IGLOO);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.SHIPWRECK).add(ConfiguredStructureFeatureKeys.SHIPWRECK);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.SHIPWRECK_BEACHED).add(ConfiguredStructureFeatureKeys.SHIPWRECK_BEACHED);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.SWAMP_HUT).add(ConfiguredStructureFeatureKeys.SWAMP_HUT);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.MONUMENT).add(ConfiguredStructureFeatureKeys.MONUMENT);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.OCEAN_RUIN_COLD).add(ConfiguredStructureFeatureKeys.OCEAN_RUIN_COLD);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.OCEAN_RUIN_WARM).add(ConfiguredStructureFeatureKeys.OCEAN_RUIN_WARM);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.FORTRESS).add(ConfiguredStructureFeatureKeys.FORTRESS);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.NETHER_FOSSIL).add(ConfiguredStructureFeatureKeys.NETHER_FOSSIL);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.END_CITY).add(ConfiguredStructureFeatureKeys.END_CITY);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.BURIED_TREASURE).add(ConfiguredStructureFeatureKeys.BURIED_TREASURE);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.BASTION_REMNANT).add(ConfiguredStructureFeatureKeys.BASTION_REMNANT);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.VILLAGE_PLAINS).add(ConfiguredStructureFeatureKeys.VILLAGE_PLAINS);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.VILLAGE_DESERT).add(ConfiguredStructureFeatureKeys.VILLAGE_DESERT);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.VILLAGE_SAVANNA).add(ConfiguredStructureFeatureKeys.VILLAGE_SAVANNA);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.VILLAGE_SNOWY).add(ConfiguredStructureFeatureKeys.VILLAGE_SNOWY);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.VILLAGE_TAIGA).add(ConfiguredStructureFeatureKeys.VILLAGE_TAIGA);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL_DESERT).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_DESERT);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL_JUNGLE).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_JUNGLE);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL_SWAMP).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_SWAMP);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL_MOUNTAIN).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_MOUNTAIN);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL_OCEAN).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_OCEAN);
+-        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.RUINED_PORTAL_NETHER).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_NETHER);
++
++        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.ALL_TREASURE).add(ConfiguredStructureFeatureKeys.PILLAGER_OUTPOST)
++                .add(ConfiguredStructureFeatureKeys.MINESHAFT).add(ConfiguredStructureFeatureKeys.MINESHAFT_MESA).add(ConfiguredStructureFeatureKeys.MANSION)
++                .add(ConfiguredStructureFeatureKeys.JUNGLE_PYRAMID).add(ConfiguredStructureFeatureKeys.DESERT_PYRAMID).add(ConfiguredStructureFeatureKeys.IGLOO)
++                .add(ConfiguredStructureFeatureKeys.SHIPWRECK).add(ConfiguredStructureFeatureKeys.SHIPWRECK_BEACHED).add(ConfiguredStructureFeatureKeys.SWAMP_HUT)
++                .add(ConfiguredStructureFeatureKeys.OCEAN_RUIN_COLD).add(ConfiguredStructureFeatureKeys.OCEAN_RUIN_WARM).add(ConfiguredStructureFeatureKeys.FORTRESS)
++                .add(ConfiguredStructureFeatureKeys.NETHER_FOSSIL).add(ConfiguredStructureFeatureKeys.END_CITY).add(ConfiguredStructureFeatureKeys.BURIED_TREASURE)
++                .add(ConfiguredStructureFeatureKeys.BASTION_REMNANT).add(ConfiguredStructureFeatureKeys.VILLAGE_PLAINS).add(ConfiguredStructureFeatureKeys.VILLAGE_DESERT)
++                .add(ConfiguredStructureFeatureKeys.VILLAGE_SAVANNA).add(ConfiguredStructureFeatureKeys.VILLAGE_SNOWY).add(ConfiguredStructureFeatureKeys.VILLAGE_TAIGA)
++                .add(ConfiguredStructureFeatureKeys.RUINED_PORTAL).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_DESERT).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_JUNGLE)
++                .add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_SWAMP).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_MOUNTAIN).add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_OCEAN)
++                .add(ConfiguredStructureFeatureKeys.RUINED_PORTAL_NETHER);
++        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.TREASURE).add(ConfiguredStructureFeatureKeys.MONUMENT);
++        this.getOrCreateTagBuilder(ModConfiguredStructureFeatureTags.ON_TREASURE_MAPS).add(ModConfiguredStructureFeatureTags.PILLAGER_OUTPOST);
+     }
+ 
+     @Override

@@ -15,7 +15,7 @@ import net.romeosnowblitz.hmh2.block.ModBlocks;
 import net.romeosnowblitz.hmh2.entity.ModEntities;
 import net.romeosnowblitz.hmh2.entity.custom.PenguinEntity;
 import net.romeosnowblitz.hmh2.item.ModItems;
-import net.romeosnowblitz.hmh2.villager.ModVillagers;
+
 import static net.romeosnowblitz.hmh2.util.MysteriousAlchemistTrades.registerMysteriousAlchemistTrades;
 
 public class ModRegistries {
@@ -28,8 +28,6 @@ public class ModRegistries {
         registerAttributes();
         registerMysteriousAlchemistTrades();
     }
-
-
 
     public static void registerModFuels() {
         System.out.println("Now registering Fuels for " + Hmh2.MOD_ID);

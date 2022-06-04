@@ -5,7 +5,6 @@ import net.minecraft.inventory.Inventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.screen.slot.Slot;
-import net.romeosnowblitz.hmh2.block.entity.ModAbstractFurnaceBlockEntity;
 
 public class ModFuelSlot extends Slot {
     public ModFuelSlot(Inventory inventory, int index, int x, int y) {
@@ -14,7 +13,7 @@ public class ModFuelSlot extends Slot {
 
     @Override
     public boolean canInsert(ItemStack stack) {
-        return ModAbstractFurnaceBlockEntity.canUseAsFuel(stack) || ModFuelSlot.isBucket(stack);
+        return AbstractFurnaceBlockEntity.canUseAsFuel(stack) || ModFuelSlot.isBucket(stack);
     }
 
     @Override

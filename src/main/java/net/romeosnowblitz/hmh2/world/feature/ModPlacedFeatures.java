@@ -37,8 +37,10 @@ public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> RAW_TITANIUM = PlacedFeatures.register("raw_titanium", ModConfiguredFeatures.RAW_TITANIUM, ModOreFeatures.modifiersWithCount(5, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(128))));
     public static final RegistryEntry<PlacedFeature> PUMICE = PlacedFeatures.register("pumice", ModConfiguredFeatures.PUMICE, ModOreFeatures.modifiersWithCount(10, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(64))));
     public static final RegistryEntry<PlacedFeature> SALT = PlacedFeatures.register("salt", ModConfiguredFeatures.SALT, ModOreFeatures.modifiersWithCount(4, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(64), YOffset.aboveBottom(128))));
+    public static final RegistryEntry<PlacedFeature> SILVER = PlacedFeatures.register("silver", ModConfiguredFeatures.SILVER, ModOreFeatures.modifiersWithCount(5, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(128))));
+    public static final RegistryEntry<PlacedFeature> TIN = PlacedFeatures.register("tin", ModConfiguredFeatures.TIN, ModOreFeatures.modifiersWithCount(5, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(128))));
 
-    public static final RegistryEntry<PlacedFeature> HELLSTONE = PlacedFeatures.register("hellstone", ModConfiguredFeatures.HELLSTONE, ModOreFeatures.modifiersWithCount(4, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(128))));
+    public static final RegistryEntry<PlacedFeature> HELLSTONE = PlacedFeatures.register("hellstone", ModConfiguredFeatures.HELLSTONE, ModOreFeatures.modifiersWithCount(42, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(128))));
     public static final RegistryEntry<PlacedFeature> QUAERITE = PlacedFeatures.register("quaerite", ModConfiguredFeatures.QUAERITE, ModOreFeatures.modifiersWithCount(4, HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(0), YOffset.aboveBottom(128))));
 
 

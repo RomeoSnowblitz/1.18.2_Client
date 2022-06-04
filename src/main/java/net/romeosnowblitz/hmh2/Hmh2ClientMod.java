@@ -11,7 +11,7 @@ import net.minecraft.client.render.RenderLayer;
 import net.romeosnowblitz.hmh2.entity.ModEntities;
 import net.romeosnowblitz.hmh2.entity.client.PenguinRenderer;
 import net.romeosnowblitz.hmh2.fluid.ModFluids;
-import net.romeosnowblitz.hmh2.renderer.ModBoatRenderer;
+import net.romeosnowblitz.hmh2.screen.CheesePressScreen;
 import net.romeosnowblitz.hmh2.screen.FreezerScreen;
 import net.romeosnowblitz.hmh2.screen.ModScreenHandlers;
 import net.romeosnowblitz.hmh2.screen.IceCreamMakerScreen;
@@ -62,6 +62,7 @@ public class Hmh2ClientMod implements ClientModInitializer {
 
         EntityRendererRegistry.register(ModEntities.PENGUIN, PenguinRenderer::new);
 
+        ScreenRegistry.register(ModScreenHandlers.CHEESE_PRESS_SCREEN_HANDLER, CheesePressScreen::new);
         ScreenRegistry.register(ModScreenHandlers.FREEZER_SCREEN_HANDLER, FreezerScreen::new);
         ScreenRegistry.register(ModScreenHandlers.ICE_CREAM_MAKER_SCREEN_HANDLER, IceCreamMakerScreen::new);
 

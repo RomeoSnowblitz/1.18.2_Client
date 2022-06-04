@@ -25,7 +25,7 @@ public enum ModToolMaterial implements ToolMaterial {
         return Ingredient.ofItems(ModItems.ENDER_DUST);}),
     ENDER_INGOT(4, 906, 1.0F, -1.0F, 30, () -> {
         return Ingredient.ofItems(ModItems.ENDER_INGOT);}),
-    HELLSTONE(4, 906, 1.0F, -1.0F, 30, () -> {
+    HELLSTONE(4, 906, 8.0F, -1.0F, 30, () -> {
         return Ingredient.ofItems(ModItems.HELLSTONE);}),
     MOD_GOLD(4, 906, 1.0F, -1.0F, 30, () -> {
         return Ingredient.ofItems(Items.GOLD_INGOT);}),

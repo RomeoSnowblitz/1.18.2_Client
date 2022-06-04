@@ -9,7 +9,7 @@ import net.minecraft.screen.ArrayPropertyDelegate;
 import net.minecraft.screen.PropertyDelegate;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.screen.slot.Slot;
-import net.romeosnowblitz.hmh2.screen.slot.ModFuelSlot;
+import net.romeosnowblitz.hmh2.screen.slot.ModCoolantSlot;
 import net.romeosnowblitz.hmh2.screen.slot.ModResultSlot;
 
 
@@ -30,7 +30,7 @@ public class FreezerScreenHandler extends ScreenHandler {
         this.propertyDelegate = delegate;
 
         //
-        this.addSlot(new ModFuelSlot(inventory, 0, 18, 50));
+        this.addSlot(new ModCoolantSlot(inventory, 0, 18, 50));
         this.addSlot(new Slot(inventory, 1, 66, 33));
         this.addSlot(new ModResultSlot(inventory, 2, 114, 33));
 

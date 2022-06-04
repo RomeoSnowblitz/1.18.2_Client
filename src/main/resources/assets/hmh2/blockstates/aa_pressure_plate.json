@@ -1,6 +1,6 @@
 {
   "variants": {
-    "powered=false": { "model": "hmh2:block/mythril_pressure_plate" },
-    "powered=true": { "model": "hmh2:block/mythril_pressure_plate_down" }
+    "powered=false": { "model": "hmh2:block/_pressure_plate" },
+    "powered=true": { "model": "hmh2:block/_pressure_plate_down" }
   }
 }
